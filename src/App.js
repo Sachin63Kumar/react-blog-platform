@@ -8,7 +8,7 @@ import LandingPage from "./components/LandingPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/react-blog-platform">
       <div className="App">
         <Navbar />
         <Routes>
